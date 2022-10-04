@@ -13,11 +13,11 @@ void print(std::string& str)
 {
 	if(str == "Bolu" || str == "Odun")
     {
-    	std::cout << "Welcome back " + str;
+    	std::cout << "Welcome back " << str;
     }
     else
     {
-    	std::cout << "It is nice to meet you " + str;
+    	std::cout << "It is nice to meet you " << str;
     }
 }
 
@@ -44,4 +44,3 @@ int main() {
     
   	return 0;
 }
-
