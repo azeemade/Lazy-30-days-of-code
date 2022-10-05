@@ -1,4 +1,4 @@
-# Day 1: Jumping years
+# Day 2: Jumping years
 
 ## Task
 
