@@ -3,8 +3,9 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
+@app.route('/port')
 def index():
-    return '<h1>The  script is running on [port]</h1>'
+    return '<h1>The  script is running on 8080</h1>'
 
 @app.route('/fibonacci')
 def fibonacci():
