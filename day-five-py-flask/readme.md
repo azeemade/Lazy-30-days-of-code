@@ -20,3 +20,6 @@ This task was developed with the flask framework of the python programming langu
 
  - Fibonacci function
  This function return an array of the first 100 fibonacci numbers by looping between 2 and 98 to add the numbers which meet the specified operations to the array.
+
+### Deployment
+This script was deployed to Heroku platform. The endpoint is [time-up](https://time-up.herokuapp.com/)
