@@ -44,5 +44,5 @@ This task was developed with the flask framework of the python programming langu
 - DeleteAll function
   This function clears all the objects in the array and returns empty array.
 
--Add function
+- Add function
 This function appends new user object to array and increments the id by 1.

@@ -30,4 +30,4 @@ This task was developed with the flask framework of the python programming langu
   This function clears all the objects in the collection by looping through the collection using **delete_one**  and returns empty array.
 
 -Add function
-This function uses the **inser_one** keyword to add new a user object to the collection through user request.
+This function uses the **insert_one** keyword to add new a user object to the collection through user request.
