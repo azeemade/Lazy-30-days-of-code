@@ -1,0 +1,32 @@
+{
+  "name": "day-twelve-flask",
+  "version": "1.0.0",
+  "description": "A tribute page for my favourite movie",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azeemade/Lazy-30-days-of-code.git#master"
+  },
+  "keywords": [
+    "Flask",
+    "Jinja2",
+    "TailwindCSS",
+    "NodeJs",
+    "Python",
+    "JavaScript"
+  ],
+  "author": "Azeem Adenuga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azeemade/Lazy-30-days-of-code/issues"
+  },
+  "homepage": "https://github.com/azeemade/Lazy-30-days-of-code/tree/master#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.8"
+  }
+}

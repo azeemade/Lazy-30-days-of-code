@@ -16,7 +16,6 @@ Setup mongoDB for your project. Create a local mongo instance, and a user collec
  - If an unauthenticated user visits the “/status” endpoint, it return a JSON response in the form 
     `{
         “Message”:”please login”
-
     }`
 
 

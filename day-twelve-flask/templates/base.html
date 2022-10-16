@@ -1,0 +1,38 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forrest Gump Tribute Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+    <body class="bg-stone-900/25">
+        <div class="px-4 sm:px-60 sm:pt-10">
+            <div class="block sm:grid sm:grid-cols-2 gap-0 rounded-lg">
+                <div>
+                    <img src="{{data.Poster}}" alt="{{data.Title}}" class="w-full h-[30rem] opacity-75">
+                </div>
+                <div class="bg-white p-4">
+                    <p class="font-bold text-3xl text-[#35365f] mb-2">{{data.Title}}</p>
+                    <div class="mb-5">
+                        <p class="text-zinc-800 text-sm">{{data.Actors}}</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-zinc-700">{{data.Genre}}</p>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <p class="text-zinc-700">Rating: {{data.ismbRating}}<i>&#9733;</i> (IMDB)</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-zinc-700">Released: {{data.Released}}</p>
+                    </div>
+                    <div class="mb-5">
+                        <p class="text-zinc-700">Runtime: {{data.Runtime}}</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="text-zinc-700 font-semibold">{{data.Plot}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
