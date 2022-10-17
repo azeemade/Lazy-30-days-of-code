@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Results</title>
+</head>
+
+<body>
+  <h1>Results</h1>
+  <ul>
+  {% for log in logs %}
+    <li>
+      <em>{{ log.time }}:</em> {{ log.query }}
+    </li>
+  {% endfor %}
+  </ul>
+</body>
+</html>
